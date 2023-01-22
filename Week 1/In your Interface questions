@@ -1,0 +1,13 @@
+1. Refer to python code
+
+2. Refer to python code
+
+3. Refer to python code
+
+4. The interface should only contain what the user needs to know, like looking at the face of a watch or the workings of a mobile app.
+Implementation is everything else that the user doesn’t need to know, the inner workings, like the gears behind the watch face that keep 
+track of time and move the watch arms, or the data and code used to make the app work. 
+
+5. Design the interface to select a generic “storage device” button or option and file to save. 
+Then implement each storage device type with its method for saving under a class. As future storage types are created, 
+you can add the future storage device method to the class without changing the interface.
