@@ -1,0 +1,15 @@
+1. Parent class – Spell; Child class – Accio, Confundo
+
+2. Base class – Spell; Sub-class – Accio, Confundo
+
+3.  Accio
+    Summoning Charm Accio
+    No description
+    Confundus Charm Confundo
+    Causes the victim to become confused and befuddled. 
+
+4. The get_description() of Confundo is called because study_spell(Confundo()) is calling study_spell with Confundo as the object and uses Confundo’s get_description().
+
+5. 
+Def get_description(self):
+	Return “This charm summons an object to the caster, potentially over a significant distance”
